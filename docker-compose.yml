@@ -1,0 +1,26 @@
+version: "3.8"
+
+services:
+    laravel-app:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: nuri
+
+        restart: always
+        working_dir: /var/www/html
+        volumes:
+            - /var/project/nuri:/var/www/html
+            - /var/project/nuri/storage:/var/www/html/storage
+            - backup_data:/var/www/html/backup
+        ports:
+            - "7020:80"
+        networks:
+            - nuri_network
+
+networks:
+    nuri_network:
+        external: true
+
+volumes:
+    backup_data:
