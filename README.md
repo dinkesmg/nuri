@@ -2,6 +2,19 @@
   <a href="https://nuri.qliniqu.com" target="_blank"><img src="https://nuri.qliniqu.com/assets/logo/logo.png" width="400" alt="NURI Logo"></a>
 </p>
 
+## Access NURI System
+
+You can access the NURI system through the web at [https://nuri.qliniqu.com](https://nuri.qliniqu.com).
+
+### Demo Account
+
+To explore the system, use the following demo account:
+
+- **Email**: `demo.nuri@gmail.com`
+- **Password**: `salamS3h4t@!`
+
+Log in with these credentials to experience the features and functionality of the NURI system.
+
 ## About NURI
 
 NURI (National Unified Climate Response and Disease Analysis With Prediction System) is an innovative system aimed at tackling health challenges in Indonesia related to climate change. By integrating artificial intelligence and big data, NURI forecasts potential increases in climate-related diseases using data from BMKG (climate), KLHK (pollution), and BPJS health data (from 2016-2023).
