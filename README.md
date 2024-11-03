@@ -50,7 +50,7 @@ The NURI framework is proprietary software developed to support health initiativ
    Access Google Colab at [https://colab.research.google.com/](https://colab.research.google.com/).
 
 2. **Import a Python Project**  
-   Import the `nuri.ipynb` file into Google Colab:
+   Open Folder Nuri/Python and then Import the `nuri.ipynb` file into Google Colab:
 
    - Go to the **File** menu, select **Upload Notebook**, and upload the `nuri.py` file from the downloaded source code.
 
