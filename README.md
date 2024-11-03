@@ -1,66 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  <a href="https://nuri.qliniqu.com" target="_blank"><img src="https://nuri.qliniqu.com/assets/logo/logo.png" width="400" alt="NURI Logo"></a>
 </p>
 
-## About Laravel
+<p align="center">
+  <a href="https://github.com/nuri-initiative/framework/actions"><img src="https://github.com/nuri-initiative/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+  <a href="https://packagist.org/packages/nuri/framework"><img src="https://img.shields.io/packagist/dt/nuri/framework" alt="Total Downloads"></a>
+  <a href="https://packagist.org/packages/nuri/framework"><img src="https://img.shields.io/packagist/v/nuri/framework" alt="Latest Stable Version"></a>
+  <a href="https://packagist.org/packages/nuri/framework"><img src="https://img.shields.io/packagist/l/nuri/framework" alt="License"></a>
+</p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## About NURI
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+NURI (National Unified Climate Response and Disease Analysis With Prediction System) is an innovative system aimed at tackling health challenges in Indonesia related to climate change. By integrating artificial intelligence and big data, NURI forecasts potential increases in climate-related diseases using data from BMKG (climate), KLHK (pollution), and BPJS health data (from 2016-2023).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Key Features
 
-## Learning Laravel
+-   **Integrated Climate and Health Data**: Real-time data from multiple governmental sources.
+-   **Disease Prediction Models**: Identifies and clusters diseases based on climate trends.
+-   **Decision Support System**: Assists in proactive disease prevention and response.
+-   **Real-time Analytics and Dashboard**: Provides insights and visualizations for stakeholders.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Objectives
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+NURI aims to utilize artificial intelligence and big data to:
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   Analyze the relationship between climate and disease.
+-   Develop predictive systems to support preventive health actions.
+-   Provide data-driven insights to health institutions across Indonesia.
 
-## Laravel Sponsors
+## Background
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Indonesia, as a tropical archipelago, faces health challenges from climate change, including increases in infectious and non-infectious diseases. Unpredictable weather, temperature fluctuations, and irregular rainfall patterns contribute to the spread of diseases like dengue and respiratory infections. NURI bridges this gap by providing insights into these patterns, supporting effective health responses.
 
-### Premium Partners
+## Impact
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+NURI enhances the effectiveness of Indonesia’s climate-related disease prevention and management efforts. With data-driven insights, health institutions can take timely preventive actions, reduce the impact of diseases, and strengthen inter-agency collaboration, ultimately improving public health resilience.
+
+---
+
+## Learning About NURI
+
+Explore the extensive [documentation](https://nuri.qliniqu.com/docs) for a comprehensive overview of the system’s features and benefits.
+
+For further learning, refer to [NURI Insights](https://nuri.qliniqu.com/insights) for tutorials on AI-driven health prediction, big data analysis, and related case studies.
+
+---
+
+## NURI Sponsors
+
+We thank our partners and sponsors for their support in developing the NURI framework. Interested in becoming a sponsor? Visit our [Partners page](https://nuri.qliniqu.com/partners).
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Thank you for considering a contribution to the NURI initiative! For more information, see our guidelines in the [NURI documentation](https://nuri.qliniqu.com/docs/contributing).
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+---
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+The NURI framework is proprietary software, developed to support health initiatives in Indonesia.
