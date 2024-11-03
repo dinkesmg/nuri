@@ -66,7 +66,7 @@ The NURI framework is proprietary software developed to support health initiativ
    Clone the NURI repository to your local machine:
    ```bash
    git clone https://github.com/dinkesmg/nuri.git
-   cd nuri
+   cd nuri/laravel
    ```
 2. **Copy Environment File**  
    Copy the .env.example file to .env:
