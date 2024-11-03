@@ -11,4 +11,12 @@ class VisualizationController extends Controller
     {
         return Inertia::render('Visualization/ParticipantCase', []);
     }
+    public function predictionParticipantCase()
+    {
+        return Inertia::render('Visualization/PredictionCase', []);
+    }
+    public function topCaseInCity()
+    {
+        return Inertia::render('Visualization/TopCaseInCity', []);
+    }
 }

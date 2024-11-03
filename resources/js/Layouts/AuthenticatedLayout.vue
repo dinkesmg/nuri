@@ -53,7 +53,31 @@ const currentYear = new Date().getFullYear(); // Menentukan tahun berjalan
                                     "
                                     class="text-white"
                                 >
-                                    Monitoring Kasus Kepersertaan
+                                    Monitoring Kasus
+                                </NavLink>
+                                <NavLink
+                                    :href="
+                                        route('visualization.prediction.case')
+                                    "
+                                    :active="
+                                        route().current(
+                                            'visualization.prediction.case'
+                                        )
+                                    "
+                                    class="text-white"
+                                >
+                                    Prediksi Kasus
+                                </NavLink>
+                                <NavLink
+                                    :href="route('visualization.top.case.city')"
+                                    :active="
+                                        route().current(
+                                            'visualization.top.case.city'
+                                        )
+                                    "
+                                    class="text-white"
+                                >
+                                    Top Kasus Penyakit
                                 </NavLink>
                             </div>
                         </div>

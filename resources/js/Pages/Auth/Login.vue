@@ -27,7 +27,7 @@ const form = useForm({
     remember: false,
 });
 
-// State untuk toggle show password
+// State for toggling password visibility
 const showPassword = ref(false);
 
 const submit = () => {
@@ -75,7 +75,7 @@ const submit = () => {
                         autocomplete="current-password"
                     />
 
-                    <!-- Icon untuk toggle show password -->
+                    <!-- Toggle password visibility icon -->
                     <span
                         @click="showPassword = !showPassword"
                         class="absolute inset-y-0 right-0 pr-3 flex items-center cursor-pointer text-gray-500"
@@ -96,7 +96,7 @@ const submit = () => {
                 </label>
             </div>
 
-            <div class="flex items-center justify-end mt-4">
+            <div class="flex items-center justify-start mt-4 space-x-4">
                 <Link
                     v-if="canResetPassword"
                     :href="route('password.request')"
@@ -105,6 +105,15 @@ const submit = () => {
                     Forgot your password?
                 </Link>
 
+                <Link
+                    :href="route('register')"
+                    class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                >
+                    Don't have an account?
+                </Link>
+            </div>
+
+            <div class="flex items-center justify-end mt-4">
                 <PrimaryButton
                     class="ms-4"
                     :class="{ 'opacity-25': form.processing }"
@@ -118,8 +127,8 @@ const submit = () => {
 </template>
 
 <style scoped>
-/* Atur posisi dan gaya ikon */
+/* Customize the icon style */
 .text-gray-500:hover {
-    color: #4a5568; /* Warna yang sedikit lebih gelap saat hover */
+    color: #4a5568; /* Slightly darker color on hover */
 }
 </style>

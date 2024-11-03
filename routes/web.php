@@ -34,7 +34,9 @@ Route::group(['middleware' => 'auth'], function () {
     });
 
     Route::group(['prefix' => 'visualization', 'as' => 'visualization.'], function () {
-        Route::get('case-participant', [VisualizationController::class, 'monitoringParticipantCase'])->name('monitoring.case');
+        Route::get('case-monitoring', [VisualizationController::class, 'monitoringParticipantCase'])->name('monitoring.case');
+        Route::get('case-prediction', [VisualizationController::class, 'predictionParticipantCase'])->name('prediction.case');
+        Route::get('top-case-city', [VisualizationController::class, 'topCaseInCity'])->name('top.case.city');
     });
 });
 
