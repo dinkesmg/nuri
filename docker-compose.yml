@@ -14,7 +14,7 @@ services:
             - /var/project/nuri/storage:/var/www/html/storage
             - backup_data:/var/www/html/backup
         ports:
-            - "12345:80"
+            - "7860:80"
         networks:
             - nuri_network
 
